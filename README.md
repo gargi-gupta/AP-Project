@@ -37,3 +37,6 @@ them the system can’t exist. So to initiate the system, admin needs to be pres
 2. In the diagram we have taken admin(already existing), supervisor and staff. And rest is the
 system having various use cases(i.e. the specific functionalities). And they can balog to any of
 the 5 departments.
+
+3. At the very first step, user is asked to enter his choice(as to which department he belong/will
+belong to.
