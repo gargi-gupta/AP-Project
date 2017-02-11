@@ -40,3 +40,10 @@ the 5 departments.
 
 3. At the very first step, user is asked to enter his choice(as to which department he belong/will
 belong to.
+
+4. Then as per the department he chooses, he is again prompted to enter another choice for sign
+up/login.
+
+5. Sign-up: In this case, admin puts a check whether he allows the user to be added to the
+system or not. If yes, he is be added to the respective database(based on the department), else
+rejected and returns back to the user choice page.
