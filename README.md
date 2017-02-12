@@ -62,3 +62,6 @@ rejected and returns back to the user choice page.
 2. Delete: same as above
 3. View: he can choose to view the details/working of his staff member and give his feedback to the staff members.(this feedback use case will be extended from the View use case since this is completely optional for the supervisor.
 4. Assign: Can assign task to the staff members and the details of the task will be accordingly added to the database of the staff.
+5. ViewTask: To keep a check on the status of the task.
+6. Logistics: To keep a check on whether everything in his department is going properly or not and in case he feels the need of any kind of amendment, he requests the admin for the new logistics, this will be an extended use case since it solely depends on the supervisor whether he wants to make any changes/modifications in the working of the staff.
+7. Leave: can apply for leave to the admin. Same will be updated to the database.
