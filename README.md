@@ -55,3 +55,10 @@ rejected and returns back to the user choice page.
 2. View: Same as above.
 3. Assign: He can assign a particular task to any staff member or supervisor. This will be taken an input string and added to the database.
 4. Approve/reject: He holds the right to approve/reject any kind of request from supervisor or staff member.
+
+
+7. SUPERVISOR: he can perform various functionalities(use cases) like:
+1. Add: he can add the staff member. If so, his entry will be added to the database.
+2. Delete: same as above
+3. View: he can choose to view the details/working of his staff member and give his feedback to the staff members.(this feedback use case will be extended from the View use case since this is completely optional for the supervisor.
+4. Assign: Can assign task to the staff members and the details of the task will be accordingly added to the database of the staff.
