@@ -48,4 +48,10 @@ up/login.
 system or not. If yes, he is be added to the respective database(based on the department), else
 rejected and returns back to the user choice page.
 
-Login: In this case, the functionalities’ channel for him opens(based on his post and department).
+*Login: In this case, the functionalities channel for him opens(based on his post and department).
+
+6. ADMIN: he can perform various functionalities(use cases) like:
+1. Delete: he can delete a staff member/supervisor. Then it is being removed from Database.
+2. View: Same as above.
+3. Assign: He can assign a particular task to any staff member or supervisor. This will be taken an input string and added to the database.
+4. Approve/reject: He holds the right to approve/reject any kind of request from supervisor or staff member.
