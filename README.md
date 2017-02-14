@@ -72,3 +72,4 @@ rejected and returns back to the user choice page.
     3. UpdateStatus: He will mention his status as free or busy.
     4. TaskReport: He will send his task report to the supervisor   
  
+-->LOGOUT: A use case which will be extended from all the above mentioned use cases as the user can opt to logout from the entire system at any point of time.
