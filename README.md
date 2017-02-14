@@ -65,3 +65,10 @@ rejected and returns back to the user choice page.
     5. ViewTask: To keep a check on the status of the task.
     6. Logistics: To keep a check on whether everything in his department is going properly or not and in case he feels the          need of any kind of amendment, he requests the admin for the new logistics, this will be an extended use case since it        solely depends on the supervisor whether he wants to make any changes/modifications in the working of the staff.
     7. Leave: can apply for leave to the admin. Same will be updated to the database.
+    
+8. STAFF: he can perform various functionalities(use cases) like:
+1. Leave: can apply for leave to the admin. Same will be updated to the database.
+2. Logistics: He can request the supervisor for changes in the logistics. This request will be then processed by the supervisor.
+3. UpdateStatus: He will mention his status as free or busy.
+4. TaskReport: He will send his task report to the supervisor   
+ 
