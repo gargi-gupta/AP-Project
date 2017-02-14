@@ -67,8 +67,8 @@ rejected and returns back to the user choice page.
     7. Leave: can apply for leave to the admin. Same will be updated to the database.
     
 8. STAFF: he can perform various functionalities(use cases) like:
-1. Leave: can apply for leave to the admin. Same will be updated to the database.
-2. Logistics: He can request the supervisor for changes in the logistics. This request will be then processed by the supervisor.
-3. UpdateStatus: He will mention his status as free or busy.
-4. TaskReport: He will send his task report to the supervisor   
+    1. Leave: can apply for leave to the admin. Same will be updated to the database.
+    2. Logistics: He can request the supervisor for changes in the logistics. This request will be then processed by the              supervisor.
+    3. UpdateStatus: He will mention his status as free or busy.
+    4. TaskReport: He will send his task report to the supervisor   
  
