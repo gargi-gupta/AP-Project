@@ -75,3 +75,4 @@ rejected and returns back to the user choice page.
 -->LOGOUT: A use case which will be extended from all the above mentioned use cases as the user can opt to logout from the entire system at any point of time.
 
 -->LOGIN method will contain username and password parameters and the database file will be checked after every successfull login. Else an error message will be shown and user will be asked to login again.
+Registration method will contain ID, type, name, username, password, DOB, address, department parameters. Database file will be checked and registration will be successfull if the new user is unique.
