@@ -78,3 +78,5 @@ rejected and returns back to the user choice page.
 Registration method will contain ID, type, name, username, password, DOB, address, department parameters. Database file will be checked and registration will be successfull if the new user is unique.
 
 -->Task method will contain taskID, Task Name,Task Description Department,Supervisor, Staff, Equipment, status, deadline as parameters. This method will be called when a new task has to be assigned or the status of a task needs to be seen.
+
+-->Leave method will contain Leave to Whom, reason, time period as parameters. This method will be called when either supervisor or staff needs to apply for a leave.
