@@ -89,3 +89,15 @@ Registration method will contain ID, type, name, username, password, DOB, addres
 
 --> We will be using many design patterns in our implementation which will enhance the final output.
 
+ public class GM {
+         public static void main(String[] args) {
+        /*
+           
+           1. ask him whether he want to operate on supervisor/staff and then ask for whether he want to add/delete/view them
+        if(choice==user)
+           if(choice==add)
+                add(user)
+           else if(choice ==delete)
+                delete(user)
+           else if(choice==view)
+                read(user)
