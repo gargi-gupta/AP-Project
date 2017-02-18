@@ -123,3 +123,15 @@ Registration method will contain ID, type, name, username, password, DOB, addres
                 else
                     add to it's database(it's text file)
     }
+    
+    delete(String user)
+    {
+        delete from database(his text file)
+        if(user==supervisor)
+             then ask for new supervisor details --> add to database.
+    }
+    
+    read(user)
+    {
+        read user's text file
+    }
