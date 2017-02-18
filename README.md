@@ -101,3 +101,17 @@ Registration method will contain ID, type, name, username, password, DOB, addres
                 delete(user)
            else if(choice==view)
                 read(user)
+           
+           2. ask him if he wants to assign some tasks to someone? If yes, then -->
+        if(choice==supervisor)
+            task(supervisor)
+        else if(choice==staff)
+            task(staff)
+            
+            3. ask him if he wanna work on logistics requests from staff/supervisor or not.
+        if(ans==yes)
+            check GM text file and search whether he has any request pending or not.
+            if(ans==yes)
+            
+            
+    }
