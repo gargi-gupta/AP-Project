@@ -115,3 +115,11 @@ Registration method will contain ID, type, name, username, password, DOB, addres
             
             
     }
+
+     add(String user)
+    {
+        if(already exists)
+                    show a message that it already exists
+                else
+                    add to it's database(it's text file)
+    }
