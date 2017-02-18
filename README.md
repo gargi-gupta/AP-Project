@@ -135,3 +135,11 @@ Registration method will contain ID, type, name, username, password, DOB, addres
     {
         read user's text file
     }
+    
+    task(user)
+    {
+        1. update user's text file.
+        2. also add to task text file.
+    }
+    */
+    
