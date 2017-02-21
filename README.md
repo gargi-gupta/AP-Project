@@ -161,3 +161,42 @@ public class Staff {
          
         }
     }        
+
+
+ public class Supervisor {
+    public static void main(String[] args) {
+        /*
+
+            create array list for all the text-documents.
+
+
+          1. ask him whether he want to operate on staff and then ask for whether he want to add/delete/view them
+           if(choice==add)
+            {
+               add()
+            }
+            else if(choice ==delete)
+           {
+               delete()
+           }
+           else if(choice==view)
+                read()
+           2. ask him if he wants to assign some tasks to someone? If yes, then -->
+            task()
+           3. ask him if he wanna work on logistics requests from staff or not. if yes-->
+           check supervisor's text file and search whether he has any request pending or not.
+            if(ans==yes)
+                approve those requests(a field) i.e remove them from his line
+            else
+                print(no request to operate upon)
+           4. ask him whether he want to send any request to GM. If yes -->
+                1. open GM text file
+                2. Add the request string to that file.
+           5. Ask him whether he want to send leave to GM.
+             NOTE: all supervisor lines in it's text file will have a field namely status --> "busy" or "Available" ,  "leave"
+                if yes -->
+                    1.print(leave sent)
+                    2.set the status field as "on leave"
+           6. If he want to view task--> read task text file
+
+    }     
