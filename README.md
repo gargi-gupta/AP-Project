@@ -142,4 +142,22 @@ Registration method will contain ID, type, name, username, password, DOB, addres
         2. also add to task text file.
     }
     */
-    
+
+
+public class Staff {
+    public static void main(String[] args) {
+        {
+                create array list for all the text-documents.
+                1. Ask him whether he want to send request to supervisor. If yes,
+                    1. Open Supervisor file. Search for the supervisor with same dept.
+                    2. Add request string to it's field.
+                2. Ask him whether he want to send leave request to supervisor or not.
+                    if yes,
+                        1. print(request sent)
+                        2. set the status field as "On leave"
+                3. Print task text file.
+                4. NOTE: all staff lines in it's text file will have a field namely status --> "busy" or "Available" ,  "leave"
+                5. print the task report of all those tasks whose status is "complete"
+         
+        }
+    }        
