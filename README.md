@@ -204,7 +204,7 @@ public class Staff {
 
  add()
     {
-        --> input the department of that staff member.
+               --> input the department of that staff member.
                    if(input==supervisor's dept )
                         if(already exists in that dept)
                              show a message that it already exists
