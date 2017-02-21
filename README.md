@@ -200,3 +200,28 @@ public class Staff {
            6. If he want to view task--> read task text file
 
     }     
+
+
+ add()
+    {
+        --> input the department of that staff member.
+                   if(input==supervisor's dept )
+                        if(already exists in that dept)
+                             show a message that it already exists
+                        else
+                             add to it's database(it's text file)
+                   else
+                        print(sorry, can't add some other dept. member)
+    }
+    
+    delete()
+    {
+              --> input the department of that staff member.
+                   if(input==supervisor's dept )
+                        if(already exists in that dept)
+                             delete that staff entry
+                        else
+                               print(doesn't exist)
+                   else
+                        print(sorry, can't delete some other dept.member)
+    }
