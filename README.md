@@ -257,6 +257,31 @@ public class Staff {
                    else
                         print(sorry, can't view some other dept.member)
     }
+    
+    
+    
+    */GUI
+                
+                
+          public class FMS {
+    private JButton button1;
+    private JButton button2;
+    private JButton button3;
+    private JButton button4;
+}      
+
+    /**
+     * Initialize the contents of the frame.
+     */
+    private void initialize() {
+        frame = new JFrame();
+        frame.setBounds(100, 100, 408, 327);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.getContentPane().setLayout(null);
+        
+         JLabel lblUsername = new JLabel("Username");
+        lblUsername.setBounds(78, 21, 59, 31);
+        frame.getContentPane().add(lblUsername);
 
 
  
