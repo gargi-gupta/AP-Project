@@ -204,8 +204,8 @@ public class Staff {
 
  add()
     {
-               --> input the department of that staff member.
-                   if(input==supervisor's dept )
+                  input the department of that staff member.
+                   if (input==supervisor's dept )
                         if(already exists in that dept)
                              show a message that it already exists
                         else
@@ -225,3 +225,38 @@ public class Staff {
                    else
                         print(sorry, can't delete some other dept.member)
     }
+
+
+    read()
+    {
+        --> input the department of that staff member.
+                   if(input==supervisor's dept )
+                        if(already exists in that dept)
+                             read it's file
+                        else
+                               print(doesn't exist)
+                   else
+                        print(sorry, can't view some other dept.member)
+     }
+    
+    task()
+    {
+
+         --> input the department of that staff member.
+                   if(input==supervisor's dept )
+                        if(already exists in that dept)
+                        1. open staff's text file.
+                        2. while(ask for the name of the staff member one by one)
+                                  {
+                                         1. search for that name.
+                                         2. update it's task field.
+                                         3. Also add to task text file.
+                                   }
+                        else
+                               print( member doesn't exist)
+                   else
+                        print(sorry, can't view some other dept.member)
+    }
+
+
+ 
